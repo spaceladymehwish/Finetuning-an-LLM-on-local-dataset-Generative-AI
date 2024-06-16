@@ -13,7 +13,7 @@ import string #for punctuation
 punctuation = string.punctuation + "*[](){}\n"
 
 # Load your API key 
-GOOGLE_API_KEY= "AIzaSyCkZYpUYTsI0Re2jzwVe7c3EwD0v3QTnRE"
+GOOGLE_API_KEY= ""
 genai.configure(api_key=GOOGLE_API_KEY) #
 
 # it split the text into chunks of 3000 characters with 500 characters overlap between chunks for better results
